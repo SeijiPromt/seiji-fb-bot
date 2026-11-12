@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const http = require("http");
-const login = require("fca-unofficial");
+const login = require("@dongdev/fca-unofficial");
 
 const config = require("./config");
 const { Store } = require("./store");
