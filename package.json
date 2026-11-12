@@ -10,6 +10,6 @@
     "node": ">=20"
   },
   "dependencies": {
-    "fca-unofficial": "^3.3.4"
+    "@dongdev/fca-unofficial": "^4.0.3"
   }
 }
