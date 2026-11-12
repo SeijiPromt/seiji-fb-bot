@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: fb-acc-bot
+    runtime: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: APPSTATE
+        sync: false
+      - key: ADMIN_IDS
+        sync: false
+      - key: DAILY_LIMIT
+        value: 100
+      - key: PREFIX
+        value: "!"
