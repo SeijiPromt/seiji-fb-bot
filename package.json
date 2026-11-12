@@ -1,0 +1,15 @@
+{
+  "name": "fb-acc-bot",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fca-unofficial": "^3.3.4"
+  }
+}
