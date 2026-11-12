@@ -7,7 +7,7 @@ async function chat(messages) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         messages: messages,
-        model: "openai", // default model ng pollinations
+        model: "openai",
         seed: Math.floor(Math.random() * 1000000)
       })
     });
